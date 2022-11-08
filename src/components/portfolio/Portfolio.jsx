@@ -1,6 +1,8 @@
 import React from 'react'
 import './styles.css'
 import IMG from '../../assets/akpego.png'
+import IMG2 from '../../assets/preview.png'
+import IMG3 from '../../assets/home.jpeg'
 import IMG6 from '../../assets/page.png'
 
 const Portfolio = () => {
@@ -24,23 +26,23 @@ const Portfolio = () => {
 
   <article className="portfolio__item">
     <div className="portfolio__item-img">
-      
+      <img src={IMG2} alt="" />
     </div>
-    <h3>Fitnesso App</h3>
+    <h3>Berotot App</h3>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/Davidorji93/FitnessoApp-Frontend" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="https://fitnessoapp1.web.app/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Davidorji93/BEROTOT" target="_blank" className='btn' rel="noreferrer">Github</a>
+    <a href="https://berotot-app.netlify.app/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
     </div>
   </article>
 
   <article className="portfolio__item">
     <div className="portfolio__item-img">
-      
+      <img src={IMG3} alt="" />
     </div>
-    <h3>Chomp App</h3>
+    <h3>Wakacast App</h3>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/Davidorji93/ChompApp-frontend" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="https://62bb0ae2e58d5017d4aef0b1--vocal-semolina-7cc3dd.netlify.app/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Wakacast/wakacast-web" target="_blank" className='btn' rel="noreferrer">Github</a>
+    <a href="https://www.wakacast.com/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
     </div>
   </article>
 
