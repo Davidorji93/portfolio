@@ -3,6 +3,8 @@ import './styles.css'
 import IMG from '../../assets/akpego.png'
 import IMG2 from '../../assets/preview.png'
 import IMG3 from '../../assets/home.jpeg'
+import IMG4 from '../../assets/preview-plantex.png'
+import IMG5 from '../../assets/Restaurant Home.png'
 import IMG6 from '../../assets/page.png'
 
 const Portfolio = () => {
@@ -48,12 +50,12 @@ const Portfolio = () => {
 
   <article className="portfolio__item">
     <div className="portfolio__item-img">
-      
+      <img src={IMG4} alt="" />
     </div>
-    <h3>Akpego App</h3>
+    <h3>Plantex App</h3>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/nerdyeye/dwallit" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="https://dwallit.herokuapp.com/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Davidorji93/Plantex" target="_blank" className='btn' rel="noreferrer">Github</a>
+    <a href="https://plantex-web.netlify.app/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
     </div>
   </article>
 
@@ -70,12 +72,12 @@ const Portfolio = () => {
 
   <article className="portfolio__item">
     <div className="portfolio__item-img">
-      
+      <img src={IMG5} alt="" />
     </div>
-    <h3>State Website</h3>
+    <h3>Gericht Website</h3>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/Davidorji93/Stated-website" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="stated-website.netlify.app"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Davidorji93/Gericht" target="_blank" className='btn' rel="noreferrer">Github</a>
+    <a href="https://gericht-restrurant.netlify.app"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
     </div>
   </article>
 </div>
