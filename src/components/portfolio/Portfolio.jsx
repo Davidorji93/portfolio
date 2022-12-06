@@ -5,7 +5,7 @@ import IMG2 from '../../assets/preview.png'
 import IMG3 from '../../assets/home.jpeg'
 import IMG4 from '../../assets/preview-plantex.png'
 import IMG5 from '../../assets/Restaurant Home.png'
-import IMG6 from '../../assets/page.png'
+import IMG6 from '../../assets/thumbnail.jpg'
 
 const Portfolio = () => {
   return (
@@ -63,10 +63,10 @@ const Portfolio = () => {
     <div className="portfolio__item-img">
       <img src={IMG6} alt="" />
     </div>
-    <h3>Product Website</h3>
+    <h3>Vawulens App</h3>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/Davidorji93/Product-Website" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="https://porduct-website.netlify.app"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Davidorji93/Vawulens" target="_blank" className='btn' rel="noreferrer">Github</a>
+    <a href="https://vawulens-app.netlify.app/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
     </div>
   </article>
 
