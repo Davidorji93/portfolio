@@ -4,7 +4,7 @@ import IMG from '../../assets/akpego.png'
 import IMG2 from '../../assets/preview.png'
 import IMG3 from '../../assets/home.jpeg'
 import IMG4 from '../../assets/preview-plantex.png'
-import IMG5 from '../../assets/Restaurant Home.png'
+import IMG5 from '../../assets/pages.webp'
 import IMG6 from '../../assets/thumbnail.jpg'
 
 const Portfolio = () => {
@@ -74,10 +74,10 @@ const Portfolio = () => {
     <div className="portfolio__item-img">
       <img src={IMG5} alt="" />
     </div>
-    <h3>Gericht Website</h3>
+    <h3>Multimart App</h3>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/Davidorji93/Gericht" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="https://gericht-restrurant.netlify.app"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Davidorji93/Multimart-App" target="_blank" className='btn' rel="noreferrer">Github</a>
+    <a href="https://multimart-app.netlify.app/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
     </div>
   </article>
 </div>
