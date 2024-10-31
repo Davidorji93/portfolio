@@ -1,6 +1,5 @@
 import React from 'react'
 import './styles.css'
-import IMG from '../../assets/akpego.png'
 import IMG2 from '../../assets/preview.png'
 import IMG3 from '../../assets/home.jpeg'
 import IMG4 from '../../assets/preview-plantex.png'
@@ -14,15 +13,15 @@ const Portfolio = () => {
 <h2>Portfolio</h2>
 
 <div className="container portfolio__container">
-  <article className="portfolio__item">
+
+<article className="portfolio__item">
     <div className="portfolio__item-img">
-      <img src={IMG} alt="" />
-      
+      <img src={IMG5} alt="" />
     </div>
-    <h3>Akpego App</h3>
+    <h3>Multimart App</h3>
     <div className="portfolio__item-cta">
-    <a href="https://github.com/nerdyeye/dwallit" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="https://dwallit.herokuapp.com/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
+    <a href="https://github.com/Davidorji93/Multimart" target="_blank" className='btn' rel="noreferrer">Github</a>
+    <a href="https://multimart-app.netlify.app/home"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
     </div>
   </article>
 
@@ -70,16 +69,7 @@ const Portfolio = () => {
     </div>
   </article>
 
-  <article className="portfolio__item">
-    <div className="portfolio__item-img">
-      <img src={IMG5} alt="" />
-    </div>
-    <h3>Multimart App</h3>
-    <div className="portfolio__item-cta">
-    <a href="https://github.com/Davidorji93/Multimart-App" target="_blank" className='btn' rel="noreferrer">Github</a>
-    <a href="https://multimart-app.netlify.app/"  target="_blank" className='btn btn-primary' rel="noreferrer">Live Demo</a>
-    </div>
-  </article>
+
 </div>
  </section>
   )
