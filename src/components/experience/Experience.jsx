@@ -31,7 +31,15 @@ const Experience = () => {
         <BsPatchCheckFill className='experience__details-icon'/>
         <div>
         <h4>JavaScript</h4>
-        <small className='text-light'>Intermediate</small>
+        <small className='text-light'>Experienced</small>
+        </div>
+      </article>
+
+      <article className="experience__details">
+        <BsPatchCheckFill className='experience__details-icon'/>
+        <div>
+        <h4>TailwindCss</h4>
+        <small className='text-light'>Experienced</small>
         </div>
       </article>
 
@@ -47,7 +55,7 @@ const Experience = () => {
         <BsPatchCheckFill className='experience__details-icon'/>
         <div>
         <h4>VueJS</h4>
-        <small className='text-light'>Intermediate</small>
+        <small className='text-light'>Experienced</small>
         </div>
       </article>
 
@@ -55,6 +63,14 @@ const Experience = () => {
         <BsPatchCheckFill className='experience__details-icon'/>
       <div>
       <h4>React</h4>
+        <small className='text-light'>Experienced</small>
+      </div>
+      </article>
+
+      <article className="experience__details">
+        <BsPatchCheckFill className='experience__details-icon'/>
+      <div>
+      <h4>Redux</h4>
         <small className='text-light'>Experienced</small>
       </div>
       </article>
@@ -83,8 +99,24 @@ const Experience = () => {
       <article className="experience__details">
         <BsPatchCheckFill className='experience__details-icon'/>
        <div>
-       <h4>SpringBoot</h4>
-        <small className='text-light'>Intermediate</small>
+       <h4>PHP</h4>
+        <small className='text-light'>Experienced</small>
+       </div>
+      </article>
+
+      <article className="experience__details">
+        <BsPatchCheckFill className='experience__details-icon'/>
+       <div>
+       <h4>Python</h4>
+        <small className='text-light'>Experienced</small>
+       </div>
+      </article>
+
+      <article className="experience__details">
+        <BsPatchCheckFill className='experience__details-icon'/>
+       <div>
+       <h4>Spring Boot</h4>
+        <small className='text-light'>Experienced</small>
        </div>
       </article>
 
