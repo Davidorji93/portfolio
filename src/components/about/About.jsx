@@ -39,7 +39,7 @@ const About = () => {
       </div>
 
     <p>
-    Highly motivated and result-oriented developer and engineer with excellent technical and communication skills. Proficient in using a wide variety of technologies, frameworks, embedded software platforms and tools to provide high quality and scalable applications.
+    Highly motivated and result-oriented developer and engineer with excellent technical and communication skills. Proficient in using a wide variety of technologies, frameworks, embedded software platforms and tools to provide high quality and scalable mobile  applications.
     </p>
     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
