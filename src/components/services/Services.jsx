@@ -9,113 +9,101 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
+        {/* React/Next.js Development */}
         <article className="service">
           <div className="service__head">
-            <h3>Flutter App Development</h3>
+            <h3>React & Next.js Development</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Build cross-platform mobile apps for Android and iOS using Flutter.</p>
+              <p>Build fast, scalable web applications using React and Next.js.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Ensure responsive, performant UI with Flutter widgets and animations.</p>
+              <p>Develop SSR (Server-Side Rendered) and SSG (Static Site Generated) apps with Next.js.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Integrate REST APIs and cloud services like Firebase and Supabase.</p>
+              <p>Implement reusable components and efficient state management with Redux or Zustand.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Apply clean architecture principles using BLoC, Riverpod, and Provider.</p>
+              <p>Ensure responsive and accessible UIs across devices and browsers.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Optimize app performance and reduce build size for production.</p>
+              <p>Integrate REST and GraphQL APIs with Axios or Apollo Client.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Keep up with latest Flutter and Dart features and best practices.</p>
+              <p>Use React Hooks and best practices for optimized performance and maintainability.</p>
             </li>
           </ul>
         </article>
 
+        {/* Frontend Tools & Styling */}
         <article className="service">
           <div className="service__head">
-            <h3>Mobile Backend Integration</h3>
+            <h3>Frontend Tools & Styling</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Design and integrate RESTful APIs with Flutter apps.</p>
+              <p>Build elegant interfaces using TailwindCSS, SCSS, or styled-components.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Use Firebase for authentication, Firestore, real-time DB, and cloud functions.</p>
+              <p>Implement responsive design and mobile-first layouts using Flexbox and Grid.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Setup push notifications using Firebase Cloud Messaging (FCM).</p>
+              <p>Utilize TypeScript for type safety and robust component architecture.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Implement secure local storage and offline capabilities.</p>
+              <p>Configure and optimize Webpack/Vite for fast development builds.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Develop scalable cloud-hosted backends for mobile apps.</p>
+              <p>Manage form validation using React Hook Form or Formik + Yup.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Stay updated with backend tools and mobile integration trends.</p>
+              <p>Adopt design systems and UI libraries like Material UI, ShadCN, or Ant Design.</p>
             </li>
           </ul>
         </article>
 
+        {/* Deployment & Maintenance */}
         <article className="service">
           <div className="service__head">
-            <h3>Mobile App Deployment & Support</h3>
+            <h3>Deployment & Maintenance</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Deploy apps to Google Play Store and Apple App Store.</p>
+              <p>Deploy apps using platforms like Vercel, Netlify, or Firebase Hosting.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Ensure apps meet all publishing requirements and guidelines.</p>
+              <p>Set up CI/CD pipelines with GitHub Actions for automated deployments.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Monitor app performance and crash analytics post-deployment.</p>
+              <p>Monitor and optimize performance using Lighthouse, Web Vitals, and Sentry.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Provide regular updates and maintenance for released apps.</p>
+              <p>Write unit and integration tests using Jest and React Testing Library.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Support CI/CD workflows using tools like Codemagic or GitHub Actions.</p>
+              <p>Maintain and refactor codebases to keep up with evolving tech stacks.</p>
             </li>
-
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Stay current on mobile OS updates and their impact on apps.</p>
+              <p>Provide post-launch support, updates, and feature enhancements.</p>
             </li>
           </ul>
         </article>
