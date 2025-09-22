@@ -12,18 +12,23 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-description">
             <p>
-              <strong>Magni Ventures</strong> is a web application that allows
-              users to book flights and hotel reservations seamlessly, offering
-              a smooth travel planning experience.
+              <strong>GoCart</strong> is a multi-vendor e-commerce platform that
+              connects multiple sellers with buyers, offering individual
+              storefronts, seller dashboards, secure payments,customer reviews
+              to help businesses scale online.
             </p>
           </div>
-          <h3>Magni Ventures</h3>
+          <h3>Go Cart</h3>
           <div className="portfolio__item-cta">
-            <a href="#" className="btn" rel="noreferrer">
+            <a
+              href="https://github.com/Davidorji93/gocart"
+              className="btn"
+              rel="noreferrer"
+            >
               Github
             </a>
             <a
-              href="https://magniventures.org/"
+              href="https://gocart-zeta.vercel.app/"
               target="_blank"
               className="btn btn-primary"
               rel="noreferrer"
@@ -36,18 +41,24 @@ const Portfolio = () => {
         <article className="portfolio__item">
           <div className="portfolio__item-description">
             <p>
-              <strong>Zuri Africa</strong> is an e-commerce platform where users
-              can order clothing, customize their brand, track orders, and make
-              secure payments.
+              <strong>Tomato</strong> is an e-commerce platform where users can
+              order snacks and pateries, track orders, and make secure payments.
+              There is also an admin dashboard for managing
+              orders,deliveries,and products.
             </p>
           </div>
-          <h3>Zuri Africa</h3>
+          <h3>Tomato</h3>
           <div className="portfolio__item-cta">
-            <a href="#" target="_blank" className="btn" rel="noreferrer">
+            <a
+              href="https://github.com/Davidorji93/tomato"
+              target="_blank"
+              className="btn"
+              rel="noreferrer"
+            >
               Github
             </a>
             <a
-              href="https://zuriafrica.com/"
+              href="https://tomato-frontend-1uap.onrender.com"
               target="_blank"
               className="btn btn-primary"
               rel="noreferrer"
@@ -61,8 +72,9 @@ const Portfolio = () => {
           <div className="portfolio__item-description">
             <p>
               <strong>Quickcart App</strong> is an e-commerce web application
-              allowing users to browse, add to cart, and purchase products.
-              
+              allowing users to browse, add to cart, and purchase products.There
+              is also an admin dashboard for managing orders,deliveries,and
+              products.
             </p>
           </div>
           <h3>Quickcart App</h3>
